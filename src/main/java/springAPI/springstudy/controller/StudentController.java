@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import springAPI.springstudy.model.Student;
 
 @RestController
-@RequestMapping("/api/v1/all-students")
+@RequestMapping("/api/v1/students")
 public class StudentController {
     
     @GetMapping
